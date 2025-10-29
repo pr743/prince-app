@@ -1,0 +1,149 @@
+.hero-section {
+  position: relative;
+  background: rgb(255, 82, 0);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.hero-section img.bg-left,
+.hero-section img.bg-right {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+  object-fit: contain;
+}
+
+.hero-section img.bg-left {
+  left: 0;
+  width: 35%;
+  max-width: 340px;
+}
+
+.hero-section img.bg-right {
+  right: 0;
+  width: 35%;
+  max-width: 340px;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 5;
+  max-width: 800px;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.hero-content h1 {
+  font-size: clamp(30px, 5vw, 52px);
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 25px;
+}
+
+.hero-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-inputs input {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding: 13px 16px;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.hero-category {
+  margin-top: 40px;
+  width: 100%;
+  z-index: 5;
+  position: relative;
+}
+
+
+@media (max-width: 992px) {
+  .hero-section {
+    padding: 60px 25px;
+  }
+  .hero-section img.bg-left,
+  .hero-section img.bg-right {
+    width: 36%;
+    max-width: 280px;
+  }
+  .hero-content h1 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 50px 15px;
+    min-height: auto;
+    justify-content: flex-start;
+  }
+  .hero-section img.bg-left,
+  .hero-section img.bg-right {
+    width: 45%;
+    max-width: 200px;
+  }
+  .hero-content h1 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .hero-inputs {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .hero-category {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .hero-section {
+    padding: 30px 12px;
+    width: 100%;
+    min-height: auto;
+  }
+  .hero-section img.bg-left,
+  .hero-section img.bg-right {
+    width: 50%;
+    max-width: 150px;
+    opacity: 0.9;
+  }
+  .hero-content h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+  }
+  .hero-inputs input {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+  .hero-category {
+    margin-top: 20px;
+  }
+}

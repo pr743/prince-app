@@ -1,0 +1,53 @@
+
+@media (max-width: 578px) {
+  nav {
+    padding: 4px 6px;
+    gap: 2px;
+    height: 48px;
+    white-space: nowrap;
+  }
+
+  nav img {
+    height: 26px;
+  }
+
+  nav a {
+    font-size: 12px;
+    margin: 0 2px;
+  }
+
+  nav button {
+    font-size: 11px;
+    padding: 2px 5px;
+    
+  }
+
+  nav .gap-2 {
+    gap: 3px;
+  }
+}
+
+
+@media (min-width: 536px) and (max-width: 768px) {
+  nav {
+     padding: 6px 10px;
+      height: 50px;
+
+  }
+
+  nav img {
+    height: 30px;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+
+  nav button {
+    font-size: 11px;
+    padding: 3px 6px;
+  }
+}
+
+
+
