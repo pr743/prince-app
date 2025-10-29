@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/prince-app/static/css/main.455fba8e.css",
-    "main.js": "/prince-app/static/js/main.8c40506a.js",
-    "static/js/453.96453769.chunk.js": "/prince-app/static/js/453.96453769.chunk.js",
+    "main.js": "/prince-app/static/js/main.f6903111.js",
+    "static/js/453.240671f4.chunk.js": "/prince-app/static/js/453.240671f4.chunk.js",
     "index.html": "/prince-app/index.html",
     "main.455fba8e.css.map": "/prince-app/static/css/main.455fba8e.css.map",
-    "main.8c40506a.js.map": "/prince-app/static/js/main.8c40506a.js.map",
-    "453.96453769.chunk.js.map": "/prince-app/static/js/453.96453769.chunk.js.map"
+    "main.f6903111.js.map": "/prince-app/static/js/main.f6903111.js.map",
+    "453.240671f4.chunk.js.map": "/prince-app/static/js/453.240671f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.455fba8e.css",
-    "static/js/main.8c40506a.js"
+    "static/js/main.f6903111.js"
   ]
 }
