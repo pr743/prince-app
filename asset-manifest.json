@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pr743/prince-app/static/css/main.455fba8e.css",
-    "main.js": "/pr743/prince-app/static/js/main.64b96c0c.js",
-    "static/js/453.96453769.chunk.js": "/pr743/prince-app/static/js/453.96453769.chunk.js",
-    "index.html": "/pr743/prince-app/index.html",
-    "main.455fba8e.css.map": "/pr743/prince-app/static/css/main.455fba8e.css.map",
-    "main.64b96c0c.js.map": "/pr743/prince-app/static/js/main.64b96c0c.js.map",
-    "453.96453769.chunk.js.map": "/pr743/prince-app/static/js/453.96453769.chunk.js.map"
+    "main.css": "/prince-app/static/css/main.455fba8e.css",
+    "main.js": "/prince-app/static/js/main.8c40506a.js",
+    "static/js/453.96453769.chunk.js": "/prince-app/static/js/453.96453769.chunk.js",
+    "index.html": "/prince-app/index.html",
+    "main.455fba8e.css.map": "/prince-app/static/css/main.455fba8e.css.map",
+    "main.8c40506a.js.map": "/prince-app/static/js/main.8c40506a.js.map",
+    "453.96453769.chunk.js.map": "/prince-app/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.455fba8e.css",
-    "static/js/main.64b96c0c.js"
+    "static/js/main.8c40506a.js"
   ]
 }
