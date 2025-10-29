@@ -1,8 +1,8 @@
 {
-  "name": "my-app",
+  "name": "prince-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/pr743/prince-app",
+  "homepage": "https://pr743.github.io/prince-app/",
 
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
